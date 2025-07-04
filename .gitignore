@@ -1,0 +1,3 @@
+astronomy_vectorstore/
+*.pyc
+.env
