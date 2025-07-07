@@ -1,0 +1,7 @@
+Step1 : run build_vectorstore.py first to generate the directory of astronomy_vectorstore
+python build_vectorstore.py
+
+
+Step2: run app.py to start the streamlit. 
+streamlit run app.py
+
