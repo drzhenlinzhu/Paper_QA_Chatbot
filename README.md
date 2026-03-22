@@ -76,3 +76,7 @@ python build_vectorstore.py
 ```
 
 This reads `example.pdf`, embeds it, and saves the index to `astronomy_vectorstore/`. The app will load it automatically on next startup.
+
+## Finally!
+Play with the app directly via:
+https://drzhenlinzhu-paper-qa-chatbot-app-new-irwnmr.streamlit.app/
