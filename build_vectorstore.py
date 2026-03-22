@@ -12,7 +12,7 @@ def extract_text_from_pdf(pdf_path):
     return text
 
 # Extract text
-pdf_path = "suzaku_2009.pdf"
+pdf_path = "example_2009.pdf"
 text = extract_text_from_pdf(pdf_path)
 
 # Chunk
