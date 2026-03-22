@@ -7,7 +7,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate          # CHANGED: replaced RetrievalQA
 from langchain_core.output_parsers import StrOutputParser      # CHANGED: replaced RetrievalQA
 from langchain_core.runnables import RunnablePassthrough       # CHANGED: replaced RetrievalQA
-from langchain.text_splitters import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 EMBEDDINGS_MODEL = "text-embedding-3-large"
 CHAT_MODEL = "gpt-4o"
